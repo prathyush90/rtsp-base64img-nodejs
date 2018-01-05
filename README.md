@@ -20,3 +20,15 @@ var streamer = new frameTransporter({port:9999})
 ```
 
 The port option is optional by default it starts socket.io on port 9999.You can change it by passing the port value in the option.That's it your server is all set up
+
+
+I used angular2 on client side but any language which supports socket.io should be good to go
+
+Angular 2 :
+
+Inside your html add this image tag where you want to show the sequence of images 
+
+```html
+<img id="img"  >
+ 
+```
