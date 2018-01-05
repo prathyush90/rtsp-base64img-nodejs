@@ -4,3 +4,19 @@ Please download ffmpeg on to your local machine and make it available in the pat
 
 This module converts a rtsp feed into a sequence of base64 images by spawning child process and passes data to clients via websockets.It can be used to spawn multiple streams and clients join streams
 which they are interested in.The module automatically kills the child process when the room is empty.
+
+
+Using it is very very simple
+
+Node.js : 
+
+```
+npm i --save npm i rtsp-base64img-nodejs
+
+var frameTransporter = require('rtsp-base64img-nodejs');
+
+var streamer = new frameTransporter({port:9999})
+
+```
+
+The port option is optional by default it starts socket.io on port 9999.You can change it by passing the port value in the option.That's it your server is all set up
