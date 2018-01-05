@@ -11,7 +11,7 @@ Using it is very very simple
 Node.js : 
 
 ```node.js
-npm i --save npm i rtsp-base64img-nodejs
+npm i --save  rtsp-base64img-nodejs
 
 var frameTransporter = require('rtsp-base64img-nodejs');
 
