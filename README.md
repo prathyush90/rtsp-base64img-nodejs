@@ -58,7 +58,9 @@ ngOnInit() {
   }
 ```
 
-First connect socket.io to your server with mentioned port in the server.Default is 9999.Once connected emit a join event and pass the <b>url of the stream</b> and <b>room name(ip)</b>.Here i have used ipaddress as the roomname because i was developing this for ipcameras.Then get the image element's reference and update it'source with the base64 image that is being passed from the server.That's it
+1) First connect socket.io to your server with the mentioned port in the server.Default is 9999.
+2) Once connected emit a join event and pass the <b>url of the stream</b> and <b>room name(ip)</b>.Here i have used ipaddress as the roomname because i was developing this for ipcameras.
+3) Then get the image element's reference and update it'source with the base64 image that is being passed from the server.That's it
 
 I have plans to extend it further and make the ffmpeg to be passed while creating <b>frameTransporter</b>.If anyone's interested please fork and start developing.Thanks
 
