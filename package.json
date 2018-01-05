@@ -2,6 +2,8 @@
   "name": "rtsp-base64img-nodejs",
   "version": "1.0.1",
   "description": "",
+  "url" : "https://github.com/prathyush90/rtsp-base64img-nodejs",
+  "email" : "prathyush.manoharan1@gmail.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
