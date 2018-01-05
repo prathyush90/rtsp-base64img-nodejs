@@ -32,3 +32,9 @@ Inside your html add this image tag where you want to show the sequence of image
 <img id="img"  >
  
 ```
+
+In angular2 install socket.io-client from npm
+
+```es6
+import * as io from 'socket.io-client';
+```
